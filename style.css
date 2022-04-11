@@ -1,47 +1,36 @@
 body{
      background-color: rgb(253, 251, 251);
-    
-      margin:0px;
-     padding: 0px;  
+     margin:0px;
+     padding: 0px; 
+     font-family:sans-serif ; 
 }
 #cabecalho{
-        text-align: center; 
-      
-    background-color: rgb(255, 166, 0);
+     text-align: center;
+     background-color: rgb(255, 202, 104);
      width: 100%;
-      padding: 10px; 
-   /*  margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;  */   
-    position:fixed;
-    top: 0px;
-    /* z-index: 3; */
+     padding: 10px;  
+     position:fixed;
+     top: 0px;
 }
 #home{
     position:fixed;
-    margin-left: 96%;
-
+    margin-left: 96%
 }
 #artigo{
-   position;
    width: 300px;
    float:left;
-   
+   line-height: normal;
    margin-top: 100px;
    font-size: 150%;
-   border: 3px solid red;
+   border: 3px solid rgb(139, 139, 139);
+   background-color: rgb(228, 228, 228);
 }
 img{
      display: block;
-     margin-left: ;
-     margin-right: auto;
      border-radius:10%;
      margin-top: 100px;
-     float:right;
-     /* z-index :; */clear: ;
-     
+     float:right;  
 }
-
 #tabela2{
      width: 30%;
      border: 5px d rgb(46, 46, 46);
@@ -50,33 +39,39 @@ img{
      margin-top: 82px;
      border: 2px solid;
      background-color: black;
-     clear: ;
-     
 }  
 thead{
      background-color: rgb(255, 255, 255);  
 }
-#almepad th{
-     padding: 8px;
+#almepad td{
+     padding: 5px;
 }
 #deixarcinza{
      background-color: rgb(155, 155, 155);
 }
 #listaskill li{
-     padding-bottom: 5px;
-        
+     padding-bottom: 5px;      
 }
 #licoes_aprendidas{
-     margin-left: 40%;
-     padding-right: 20px;
+     margin-left: 41%;
+     padding-right: 20px;   
 }
-/* #licoes_a_aprender {} */
-#lado{
+#licoes_a_aprender li{
+     color: brown;
+     margin-left: 54%;
+}
+.lado-esquerdo{
     float: left;
-    
     padding-right: 100px;
+    color: rgb(0, 146, 37);
 }
-
-    
-
-
+#link {
+     margin-top: 125px;
+}
+aside p{
+     margin-left:200px;
+     display: inline-block;
+     clear: both;
+     border: 1px dotted rgb(95, 95, 95);
+     color: rgb(0, 0, 82);
+}
